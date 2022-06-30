@@ -4,18 +4,19 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\Ativo;
 
-class DatabaseSeeder extends Seeder
+class AtivoSeeder extends Seeder
 {
     /**
-     * Seed the application's database.
+     * Run the database seeds.
      *
      * @return void
      */
     public function run()
     {
-        $this->call([
-            AtivoSeeder::class,
-        ]);
+        Ativo::factory()
+        ->count(20)
+        ->create();
     }
 }
