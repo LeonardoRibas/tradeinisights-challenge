@@ -8,6 +8,10 @@
 - Cria uma controller onde podemos listar todos os ativos existentes no banco de dados
 - Gerar um view em vuejs / inertia / tailwind com essa lista de ativos.
 
+## Implementação
+
+Na implementação não foi utilizado o inertiajs devido a alguns erros nas configurações do projeto. Ao invés disso foi utilizado a API para a integração entre o Laravel e VueJS.
+
 ## Instalação
 
 - Pré-requisitos:
