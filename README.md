@@ -4,9 +4,9 @@
 
 ## Objetivo
 
-Criar um model chamado ativos onde teremos o código do ativo da B3 e o nome. (ativos da B3 são ações)
-Cria uma controller onde podemos listar todos os ativos existentes no banco de dados
-Gerar um view em vuejs / inertia / tailwind com essa lista de ativos.
+- Criar um model chamado ativos onde teremos o código do ativo da B3 e o nome. (ativos da B3 são ações)
+- Cria uma controller onde podemos listar todos os ativos existentes no banco de dados
+- Gerar um view em vuejs / inertia / tailwind com essa lista de ativos.
 
 ## Instalação
 
